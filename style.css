@@ -53,11 +53,17 @@ p {
 
 /*Carousel CSS */
 
-.carouselHeader{background: #655e5d}
-
 .carousel {
-    background-color: red;
-    margin: auto;
+    max-height: calc(100vh - 81px);
+    overflow: hidden;
+}
+
+.carousel,
+.img {
+}
+
+/*.carouselHeader {
+    background: #655e5d
 }
 
 .carousel,.item,.active {
@@ -82,4 +88,4 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+}*/
